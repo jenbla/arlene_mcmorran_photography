@@ -1,0 +1,608 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+input, select {
+    vertical-align:middle;
+}
+/*own styles commence*/
+body {
+	background-color: #524e4b;
+	color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: .5rem;
+}
+.hidden {
+	display: none;
+}
+
+#web-banner {
+	width: 100%;
+}
+article h1#home{
+	margin-top: 3em;
+	clear: left;
+}
+a {
+	color: #fceb22;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+	font-size: 0.8rem;
+}
+.small-logo {
+	max-width: 2.5em;
+	float: right;
+	position: relative;
+	clear: both;
+	margin: 0;
+}
+
+article p {
+	text-align: justify;
+	padding-top: 1rem;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+}
+article p:first-child {
+	padding-top: 0;
+}
+p span {
+	float: right;
+	font-style: italic;
+	font-weight: 800;
+	
+}
+h1 {
+	margin-top: 1rem;
+	font-size: 1.15rem;
+	text-align: center;
+	color:#fceb22;
+	text-transform: uppercase;
+	background-color: #8b8b9b;
+	line-height: 2em;
+	margin-bottom: 0.5em;
+
+}
+h2, h3 {
+	color:#fceb22;
+	margin-top: 1rem;
+	font-size: 1rem;
+	line-height: 1rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h3 {
+	color: #FFF;
+	font-size: 0.8rem;
+}
+
+
+
+/*slick nav styles commence Mobile Menu Core Style */
+
+.slicknav_btn { position: relative; display: block; vertical-align: middle; float: left; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
+.slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left;}
+.slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
+.slicknav_menu .slicknav_no-text { margin: 0 }
+.slicknav_menu .slicknav_icon-bar { display: block; width: 1.125em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; }
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
+.slicknav_nav { clear: both }
+.slicknav_nav ul,
+.slicknav_nav li { display: block }
+.slicknav_nav .slicknav_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
+.slicknav_nav .slicknav_item { display: block; cursor: pointer; }
+.slicknav_nav a { display: block }
+.slicknav_nav .slicknav_item a { display: inline }
+.slicknav_menu:before,
+.slicknav_menu:after { content: " "; display: table; }
+.slicknav_menu:after { clear: both }
+/* IE6/7 support */
+.slicknav_menu { *zoom: 1 }
+
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+
+.slicknav_menu {
+	font-size:16px;
+}
+/* Button */
+.slicknav_btn {
+	margin: 5px 5px 6px;	
+	text-decoration:none;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  
+	background-color: #fceb22;
+}
+/* Button Text */
+.slicknav_menu  .slicknav_menutxt {	
+	color: #8b8b8b;
+	font-weight: bold;	
+}
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #8b8b8b;
+}
+.slicknav_menu {
+	background:#524e4b;
+	padding:5px;
+}
+.slicknav_nav {
+	color:#fff;
+	margin:0;	
+	padding:0;
+	font-size:0.875em;
+}
+.slicknav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow:hidden;
+}
+.slicknav_nav ul {
+	padding:0;
+	margin:0 0 0 20px;
+}
+.slicknav_nav .slicknav_item {
+	padding:5px 10px;
+	margin:2px 5px;
+}
+.slicknav_nav a{
+	padding:5px 10px;
+	margin:2px 5px;
+	text-decoration:none;
+	color:#fff;
+}
+.slicknav_nav .slicknav_item a {
+	padding:0;
+	margin:0;
+}
+.slicknav_nav .slicknav_item:hover {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background:#ccc;
+	color:#fff;	
+}
+.slicknav_nav a:hover{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background:#ccc;
+	color:#222;
+}
+.slicknav_nav .slicknav_txtnode {
+     margin-left:15px;   
+}
+/*slicknav styles end here*/
+#social {
+	max-width: 10em;
+	height:5em;
+	float: left;
+	clear: both;
+}
+
+#social h3{
+	line-height: 5em;
+	vertical-align: middle;
+}
+#contact {
+	float: left;
+	max-width: 8em;
+	height: 5em;
+	text-align: left;
+	clear: both;
+}
+#icons {
+	max-width: 10em;
+	height: 5em;
+	float: right;
+}
+
+#footer-logo {
+	max-width: 2.5em;
+	float: right;
+	clear: left;
+	margin-bottom: 2.5em;
+}
+
+form div {
+	margin-top: 1.15rem;
+}
+label {
+	margin-right: .5em;
+}
+input:not(#submit) {
+	padding: .5em;
+	width: 90%;
+	margin-top: .5rem;
+	background-color: #8b8b8b;
+	border: none;
+}
+
+#pinterest{
+	float: left;
+	clear: none;
+	margin-top: 1.5em;
+}
+
+#facebook {
+	float: right;
+	clear: none;
+	margin-top: 1.5em;
+
+}
+nav {
+	display: none;
+}
+header:first-child {
+	margin-bottom: 3em;
+}
+
+#custom-map {
+	max-width: 18.75em;
+	height: 11.25em;
+	box-shadow: 0 0 10px 0 #888;
+	margin: 0 auto;
+}
+
+textarea {
+	max-width: 100%;
+	background-color: #8b8b8b;
+	border: none;
+	font-family: "Microsoft Sans Serif", sans-serif;
+}
+
+
+/*632px min and 1070px max*/
+@media all and (min-width:39.5em) and (max-width:66.875em) {
+
+.slicknav_menu {
+	display: none;
+	}
+	nav {
+	display: block;
+	width: 39.5em;
+	margin: 0 auto;
+	clear: both;
+	}
+	nav ul li {
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 3.438em;
+	background-color: #fceb22;
+	width: 18em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0;
+	}
+	nav ul li a{
+		display: block;
+		font-size: 1rem;
+		color: #000;
+		text-align: center;
+		font-weight: 700;
+	}
+	#wed-li,
+	#contact-li {
+		float:left;
+		margin-right: 1em;
+		}
+	#home-li,
+	#about-me-li {
+		float: left;
+		clear: right;
+		margin-right: 1em;
+	}
+
+	h1 {
+		background-color: #8b8b9b;
+		line-height: 2em;
+		margin-bottom: 0.5em;
+	}
+	#about-me-paras {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	text-align: justify;
+	-webkit-column-gap: 3.438em;
+	-moz-column-gap: 3.438em;
+	column-gap: 3.438em;
+	}
+
+	p span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-weight: 800;
+/*	margin-bottom: 1.5em;*/
+	}
+	label {
+	margin-right: .5em;
+	}
+	input:not(#submit) {
+	padding-left: .5em;
+	width: 40%;
+	margin-top: .5rem;
+	background-color: #8b8b8b;
+	border: none;
+	}
+
+	#first-name-container,
+	#wedding-date-container,
+	#email-container,
+	#submit {
+		float: left;
+		margin-right: 0;
+	}
+	#submit {
+		clear: left;
+	}
+	#first-name-container label,
+	#wedding-date-container label,
+	#email-container label {
+		width: 100%;
+		display: inline-block;
+		clear: none;
+	}
+	#first-name-container input,
+	#wedding-date-container input,
+	#email-container input {
+		width: 90%;
+		display: inline-block;
+		padding: 0.5em;
+
+	}
+	#last-name-container,
+	#venue-container,
+	#your-message-container {
+		float: right;
+		width: 45%;
+	}
+	#last-name-container input,
+	#venue-container input{
+		width: 90%;
+	}
+
+	#last-name-container label,
+	#venue-container label,
+	#your-message-container label {
+	 width: 60%;
+	 display: inline-block;
+	}
+	#submit {
+		margin-top: 5em;
+	}
+	article:last-child h2 {
+	margin-top: 2rem;
+	clear: both;
+	}
+	#custom-map {
+	float: right;
+	width: 16.25em;
+	height: 11.875em;
+	padding-top: 0;
+	clear: none;
+	box-shadow: 0 0 10px 0 #888;
+	}
+	article:last-child p {
+		display: inline-block;
+	}
+
+	.slider {
+		width: 100%;
+	}
+
+
+}
+/*800px width*/
+@media all and (min-width:50em){
+
+	#about-me-paras {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	text-align: justify;
+	-webkit-column-gap: 3.438em;
+	-moz-column-gap: 3.438em;
+	column-gap: 3.438em;
+	}
+
+	#weddings-para {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	text-align: justify;
+	-webkit-column-gap: 3.438em;
+	-moz-column-gap: 3.438em;
+	column-gap: 3.438em;
+	margin-top: 0;
+	}
+	#custom-map {
+		min-width: 28.125em;
+		float: right;
+		clear: none;
+	}
+}
+
+/*min width 1070 px*/
+@media all and (min-width:66.876em) {
+
+	.slicknav_menu {
+		display: none;
+	}
+	#web-banner {
+		display: block;
+		/*width 960 px*/
+		width: 60em;
+		margin: 0 auto;
+	}
+
+	nav {
+	display: block;
+	margin: 0 auto;
+	background-color: #fceb22;
+	width: 60em;
+	clear: both;
+	}
+	nav ul li {
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 3.438em;
+	background-color: #fceb22;
+	padding: 0 2em;
+	border-right: 0.125em solid #8b8b8b;
+	}
+
+	nav ul li:last-child {
+		border-right: none;
+	}
+	nav ul li a{
+		display: inline-block;
+		font-size: 1rem;
+		color: #000;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	#menu {
+		text-align: center;
+	}
+
+	h1 {
+		background-color: #8b8b9b;
+		line-height: 2em;
+		margin-bottom: 0.5em;
+	}
+	#home-paras {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	text-align: justify;
+	-webkit-column-gap: 3.438em;
+	-moz-column-gap: 3.438em;
+	column-gap: 3.438em;
+	}
+	#home-paras p:nth-child(2) {
+	padding-top: 0;
+	}
+	p span {
+	float: right;
+	font-style: italic;
+	font-weight: 800;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+	margin-right: 0;
+	clear: left;
+	}
+	#first-name-container,
+	#last-name-container,
+	#email-container {
+		width: 33%;
+		display: inline-block;
+	}
+	div#email-container {
+		margin-top: -8em;
+		float: left;
+		clear: left;
+		margin-left: 67%;
+
+	}
+	#your-message-container {
+		float: left;
+		clear: left;
+		width: 55%;
+	}
+	#your-message-container p {
+		width: 45%;
+	}
+	#your-message-container textarea {
+		float:right;
+		width: 50%;
+		margin-top: -4.5em;
+	}
+	#wedding-date-container {
+		float: right;
+		width: 33%;
+		margin-top: 6em;
+	}
+	#venue-container label {
+		margin-right: 60%;
+	}
+	#venue-container input {
+		width: 33%;
+		margin-left: 0;
+		margin-top: 0.5em;
+	}
+	#submit {
+		margin-top: 15em;
+		display: block;
+		margin-right: 0;
+		clear: none;
+	}
+	article:last-child h2 {
+		margin-top: 3rem;
+		clear: both;
+	}
+	#custom-map {
+	min-width: 31.25em;
+		top: -3em;
+	}
+	article:last-child > p{
+		width: 40%;
+	}
+}
